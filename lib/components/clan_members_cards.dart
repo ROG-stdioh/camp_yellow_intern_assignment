@@ -16,7 +16,7 @@ class ClanMembersCard extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
       child: Container(
-        margin: EdgeInsets.only(bottom: 60.0),
+        margin: EdgeInsets.only(bottom: 20.0),
         width: size.width,
         height: size.height * 0.2 + 40,
         decoration: BoxDecoration(
