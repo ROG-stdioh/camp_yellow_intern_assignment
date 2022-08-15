@@ -25,12 +25,17 @@ class TitleWithMoreButton extends StatelessWidget {
           child: TextButton(
             style: TextButton.styleFrom(
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20)),
-              primary: Colors.white,
+                borderRadius: BorderRadius.circular(20),
+              ),
               backgroundColor: kBlueGreen.withOpacity(0.5), // Background Color
             ),
             onPressed: press(),
-            child: Text("More"),
+            child: Text(
+              "More",
+              style: TextStyle(
+                color: Colors.white.withOpacity(0.8),
+              ),
+            ),
           ),
         ),
       ],
