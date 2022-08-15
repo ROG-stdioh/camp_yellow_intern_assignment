@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, sized_box_for_whitespace, prefer_const_literals_to_create_immutables, unused_import
 
 import 'package:camp_yellow_intern_assignment/components/achievements_cards.dart';
+import 'package:camp_yellow_intern_assignment/components/clan_members_cards.dart';
 import 'package:camp_yellow_intern_assignment/components/discussions_cards.dart';
 import 'package:camp_yellow_intern_assignment/components/header_with_banner.dart';
 import 'package:camp_yellow_intern_assignment/components/live_platform.dart';
@@ -28,6 +29,8 @@ class Body extends StatelessWidget {
           LiveOnPlatform(),
           TitleWithMoreButton(text: "Clan Discussions", press: () {}),
           DiscussionsCard(size: size),
+          TitleWithMoreButton(text: "Clan Members", press: () {}),
+          ClanMembersCard(size: size),
         ],
       ),
     );
